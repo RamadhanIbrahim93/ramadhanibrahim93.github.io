@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Systems | Muhammad Ramadhan</title>
+  <meta name="description" content="Business systems and websites built by Muhammad Ramadhan: container inspection, diesel operations, medical management and corporate websites.">
+  <link rel="icon" href="assets/img/favicon.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/favicon.jpg" alt="">Muhammad Ramadhan</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="nav-menu" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Systems</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-head">
+      <div class="container">
+        <h1 class="display">Systems and projects</h1>
+        <p>Production systems I designed, built and run at HeveaBoard Berhad, followed by recent training projects.</p>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        
+        <article class="system">
+          <div>
+            <h3>Container Inspection System</h3>
+            <p class="status "><i></i>Live</p>
+            <p class="users">Shared across several departments</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>Excel records, paper inspection forms, photos scattered across phones and long email chains between departments.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>Inspection checklists, photo evidence and loading details in one place</li><li>Access control for 6 user roles, audit log and rate limiting</li><li>WhatsApp notifications, Excel export and automated daily reports</li></ul></div>
+          </div>
+          <ul class="stack"><li>PHP 8.2</li><li>JavaScript</li><li>MariaDB</li><li>PDO</li><li>SheetJS</li><li>PhpSpreadsheet</li><li>Synology / Apache</li></ul>
+        </article>
+        
+        <article class="system">
+          <div>
+            <h3>Diesel Operations Management System</h3>
+            <p class="status uat"><i></i>In user acceptance testing</p>
+            <p class="users">Shared across departments</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>Manual forms and separate Excel files for diesel receiving, issuing and tank transfers, kept separately by each department.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>All transactions in one shared database</li><li>Closed months locked at database level with triggers</li><li>On-screen signatures and photo upload with compression</li><li>Reports exported to Excel and PDF</li></ul></div>
+          </div>
+          <ul class="stack"><li>PHP 8.2</li><li>MariaDB 10.11</li><li>mysqli</li><li>Composer</li><li>Dompdf</li><li>PhpSpreadsheet</li><li>nginx + Apache</li></ul>
+        </article>
+        
+        <article class="system">
+          <div>
+            <h3>Medical Management System</h3>
+            <p class="status "><i></i>Live</p>
+            <p class="users">Internal users and external panel clinics</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>A legacy medical application with limited reporting and security.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>Rebuilt from scratch as a web system</li><li>Panel clinics connect securely through VPN</li><li>Role-based access for each user type</li><li>Family eligibility and subsidy limits by staff level, with operational reports</li></ul></div>
+          </div>
+          <ul class="stack"><li>ASP.NET (C#)</li><li>SQL Server</li><li>IIS</li><li>JavaScript</li></ul>
+        </article>
+        
+        <article class="system">
+          <div>
+            <h3>Corporate websites</h3>
+            <p class="status "><i></i>Live</p>
+            <p class="users">HeveaBoard Berhad and HeveaPac Sdn. Bhd.</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>The HeveaBoard site was built and managed by an external vendor.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>Brought HeveaBoard web development in-house: 100+ pages covering products, processes, investor relations, governance, news and careers</li><li>Built the HeveaPac site from business requirements, with custom enquiry forms</li><li>Redesigned UI/UX and improved SEO</li></ul></div>
+          </div>
+          <ul class="stack"><li>WordPress</li><li>PHP</li><li>HTML / CSS</li><li>JavaScript</li><li>cPanel</li><li>Yoast SEO</li></ul>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="display">Automation and IIoT training</h2>
+          <p>Recent training projects at the plant, building on my mechatronics background.</p>
+        </div>
+        <div class="mini-grid">
+
+          <article class="mini">
+            <h3>Supplier quality control automation</h3><p class="when">AI &amp; Automation training, May 2026</p>
+            <p>Calculates defect rates, classifies results as Pass, Fail or Revoke, sends email notifications and feeds a Power BI dashboard. Tested on 62 inspection records across 8 suppliers.</p>
+            <ul class="stack"><li>n8n</li><li>JavaScript</li><li>Google Sheets</li><li>Gmail</li><li>Power BI</li></ul>
+          </article>
+
+          <article class="mini">
+            <h3>Utilities monitoring for Industry 4.0</h3><p class="when">IIoT training, October 2026</p>
+            <p>Monitoring flows that read machine data over industrial protocols, work out machine status in JavaScript and show it on a dashboard, with a Raspberry Pi at the edge.</p>
+            <ul class="stack"><li>Node-RED</li><li>MQTT</li><li>Modbus</li><li>OPC UA</li><li>FUXA SCADA</li></ul>
+          </article>
+
+          <article class="mini">
+            <h3>Room Booking System</h3><p class="when">First system, 2016 internship</p>
+            <p>Meeting room booking and information system for a local government office, running on a local server.</p>
+            <ul class="stack"><li>PHP</li><li>MySQL</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="y">2026</span> Muhammad Ramadhan Bin Ibrahim</span>
+      <nav aria-label="Footer"><a href="index.html">Home</a> <a href="about.html">About</a> <a href="projects.html">Systems</a> <a href="skills.html">Skills</a> <a href="experience.html">Experience</a> <a href="contact.html">Contact</a></nav>
+    </div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

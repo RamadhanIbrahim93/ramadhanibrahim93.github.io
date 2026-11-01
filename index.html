@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Ramadhan | Web & Software Developer</title>
+  <meta name="description" content="Muhammad Ramadhan Ibrahim builds web applications and business systems in PHP, ASP.NET (C#), SQL Server and MariaDB for a manufacturing company in Malaysia.">
+  <link rel="icon" href="assets/img/favicon.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/favicon.jpg" alt="">Muhammad Ramadhan</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="nav-menu" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Systems</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <p class="role rise">IT Officer | Web Development | Software Development</p>
+          <h1 class="display rise d2"><span class="name">Muhammad Ramadhan Bin Ibrahim</span>I build the web systems a factory runs on.</h1>
+          <p class="lede rise d3">Since 2024 most of my work has been designing, building and running in-house web applications that replace paper forms, Excel files and email chains, from database design to deployment and support.</p>
+          <div class="actions rise d4">
+            <a class="btn primary" href="projects.html">See my systems</a>
+            <a class="btn ghost" href="assets/docs/Muhammad_Ramadhan_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+          </div>
+          <div class="socials rise d4">
+            <a href="https://www.linkedin.com/in/muhammad-ramadhan-ibrahim-2a9abb333" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://my.jobstreet.com/profiles/muhammadramadhan-ibrahim-WCQmG9N9ML" target="_blank" rel="noopener">JobStreet</a>
+            <a href="mailto:alonggmas@gmail.com">alonggmas@gmail.com</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/img/profile.jpg" alt="Muhammad Ramadhan in a navy suit" width="862" height="1080">
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="At a glance">
+      <div class="container">
+        <div class="stat"><b>6+ years</b><span>in IT, from technician to developer</span></div>
+        <div class="stat"><b>3 systems</b><span>built from scratch, live or in UAT</span></div>
+        <div class="stat"><b>100+ pages</b><span>on the corporate website I took in-house</span></div>
+        <div class="stat"><b>2 stacks</b><span>ASP.NET (C#) and PHP, on SQL Server and MariaDB</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="display">Featured systems</h2>
+          <p>Built at HeveaBoard Berhad, a particleboard manufacturer. Each one replaced a manual process that several departments depended on.</p>
+        </div>
+        
+        <article class="system">
+          <div>
+            <h3>Container Inspection System</h3>
+            <p class="status "><i></i>Live</p>
+            <p class="users">Shared across several departments</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>Excel records, paper inspection forms, photos scattered across phones and long email chains between departments.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>Inspection checklists, photo evidence and loading details in one place</li><li>Access control for 6 user roles, audit log and rate limiting</li><li>WhatsApp notifications, Excel export and automated daily reports</li></ul></div>
+          </div>
+          <ul class="stack"><li>PHP 8.2</li><li>JavaScript</li><li>MariaDB</li><li>PDO</li><li>SheetJS</li><li>PhpSpreadsheet</li><li>Synology / Apache</li></ul>
+        </article>
+        
+        <article class="system">
+          <div>
+            <h3>Diesel Operations Management System</h3>
+            <p class="status uat"><i></i>In user acceptance testing</p>
+            <p class="users">Shared across departments</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>Manual forms and separate Excel files for diesel receiving, issuing and tank transfers, kept separately by each department.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>All transactions in one shared database</li><li>Closed months locked at database level with triggers</li><li>On-screen signatures and photo upload with compression</li><li>Reports exported to Excel and PDF</li></ul></div>
+          </div>
+          <ul class="stack"><li>PHP 8.2</li><li>MariaDB 10.11</li><li>mysqli</li><li>Composer</li><li>Dompdf</li><li>PhpSpreadsheet</li><li>nginx + Apache</li></ul>
+        </article>
+        
+        <article class="system">
+          <div>
+            <h3>Medical Management System</h3>
+            <p class="status "><i></i>Live</p>
+            <p class="users">Internal users and external panel clinics</p>
+          </div>
+          <div class="ba">
+            <div><h4>Before</h4><p>A legacy medical application with limited reporting and security.</p></div>
+            <div class="after"><h4>What I built</h4><ul><li>Rebuilt from scratch as a web system</li><li>Panel clinics connect securely through VPN</li><li>Role-based access for each user type</li><li>Family eligibility and subsidy limits by staff level, with operational reports</li></ul></div>
+          </div>
+          <ul class="stack"><li>ASP.NET (C#)</li><li>SQL Server</li><li>IIS</li><li>JavaScript</li></ul>
+        </article>
+        <p style="margin-top:28px"><a class="btn ghost" href="projects.html">All systems and projects</a></p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="display">What I build</h2>
+          <p>Web and software development is my focus. My IT background means I can also deploy and run what I build.</p>
+        </div>
+        <div class="offer">
+          <article class="main">
+            <h3>Web applications and business systems</h3>
+            <p>Internal systems that replace spreadsheets and paperwork, built around how each department actually works.</p>
+            <ul><li>Requirements, system and database design</li><li>Role-based access, audit logs, on-screen signatures</li><li>Excel and PDF reports, JSON APIs</li><li>UAT, deployment and ongoing support</li></ul>
+          </article>
+          <article>
+            <h3>Corporate websites</h3>
+            <p>Company and product websites on WordPress and PHP, with custom pages, enquiry forms and SEO.</p>
+          </article>
+          <article>
+            <h3>Automation</h3>
+            <p>Connecting systems to email, Google Sheets and dashboards with n8n and Power BI, as an add-on to the systems I build.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container">
+        <h2 class="display">Open to full-time web and software developer roles.</h2>
+        <a class="btn primary" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="y">2026</span> Muhammad Ramadhan Bin Ibrahim</span>
+      <nav aria-label="Footer"><a href="index.html">Home</a> <a href="about.html">About</a> <a href="projects.html">Systems</a> <a href="skills.html">Skills</a> <a href="experience.html">Experience</a> <a href="contact.html">Contact</a></nav>
+    </div>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
